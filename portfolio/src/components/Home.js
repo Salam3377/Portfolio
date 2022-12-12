@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import '../components/home.css'
 import pongMain from '../images/pong-main-pic.PNG'
 import coffeeShop from '../images/coffee-shop.PNG'
+import backgroundPic from '../images/backgroundPic.jpg'
 import luxHouse from '../images/lux-house-pic.PNG'
 import emailjs from '@emailjs/browser';
 
@@ -24,10 +25,13 @@ const Home = () => {
     const [showProject2, setShowProject2] = useState(false) 
     const [showProject3, setShowProject3] = useState(true)
      
-    const transition1 = showProject1 ? {width: '35vw', opacity: "1", zIndex: '2'} : {width: '0vw', opacity: '0'} ;
-    const transition2 = showProject2 ? {width: '35vw',  opacity: "1", zIndex: '2'} : {width: '0vw', opacity: '0'} ;
-    const transition3 = showProject3 ? {width: '35vw', opacity: "1",  zIndex: '2'} : {width: '0vw',  opacity: "0",} ;
+    const transition1 = showProject1 ? {width: '870px', opacity: "1", zIndex: '2'} : {border: 'none', height: '0',width: '0', opacity: '0'} ;
+    const transition2 = showProject2 ? {width: '870px',  opacity: "1", zIndex: '2'} : {border: 'none', height: '0',width: '0', opacity: '0'} ;
+    const transition3 = showProject3 ? {width: '870px', opacity: "1",  zIndex: '2'} : {border: 'none', height: '0',width: '0', opacity: '0'} ;
 
+    const choiceColor1 = showProject1 ? {color: 'blueviolet'} : {}
+    const choiceColor2 = showProject2 ? {color: 'blueviolet'} : {}
+    const choiceColor3 = showProject3 ? {color: 'blueviolet'} : {}
     const show1 = () => {
         setShowProject1(!showProject1)
         setShowProject2(false)
@@ -94,16 +98,16 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
+            {/* style={{backgroundImage: `url(${backgroundPic})`}} */}
             <div id="middle-body-div">
-
+                <img id="background" src={backgroundPic} alt="" />
                 <div id="project-div">
                     <div id="left-div-projects">
                         <h1 id="my-projects-h1">My Projects</h1>
                         <div id="project-buttons-list-div">
-                            <button onClick={() => show1()} class="project-buttons">Pong-Game</button>
-                            <button onClick={() => show2()} class="project-buttons">Coffee-Shop</button>
-                            <button onClick={() => show3()} class="project-buttons">Lux-House</button>
+                            <button style={choiceColor1} onClick={() => show1()} class="project-buttons">Pong-Game</button>
+                            <button style={choiceColor2} onClick={() => show2()} class="project-buttons">Coffee-Shop</button>
+                            <button style={choiceColor3}  onClick={() => show3()} class="project-buttons">Lux-House</button>
                         </div>
                     </div>
                     {/* <div style={transition1} id="test">
