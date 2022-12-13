@@ -23,7 +23,7 @@ const Home = () => {
 
     const [showProject1, setShowProject1] = useState(false)
     const [showProject2, setShowProject2] = useState(false) 
-    const [showProject3, setShowProject3] = useState(true)
+    const [showProject3, setShowProject3] = useState(false)
      
     const transition1 = showProject1 ? {width: '870px', opacity: "1", zIndex: '2'} : {border: 'none', height: '0',width: '0', opacity: '0'} ;
     const transition2 = showProject2 ? {width: '870px',  opacity: "1", zIndex: '2'} : {border: 'none', height: '0',width: '0', opacity: '0'} ;
@@ -113,9 +113,9 @@ const Home = () => {
                     {/* <div style={transition1} id="test">
                         <img style={transition1} id="project1-description-img" alt="" src={pongMain}/>
                     </div> */}
-                    <img style={transition1} id="project1-description-img" alt="" src={pongMain}/>
+                    <a target="_blank" rel="noopener noreferrer" href="https://salam3377.github.io/project_01-Pong/"><img style={transition1} id="project1-description-img" alt="" src={pongMain}/></a>
 
-                    <img style={transition2} id="project2-description-img" alt="" src={coffeeShop} />
+                    <a target="_blank" rel="noopener noreferrer" href="https://coffeeshop.fly.dev/"><img style={transition2} id="project2-description-img" alt="" src={coffeeShop} /></a>
 
                     <img style={transition3} id="project3-description-img" alt="" src={luxHouse} />
                 </div>
