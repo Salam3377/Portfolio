@@ -60,11 +60,10 @@ const Home = () => {
                     <div id="header-right-div">
                         <div id="border-right-div">
                             <h1 id="about-me">About Me</h1>
-                            <p id="about-me-text">&nbsp;&nbsp;&nbsp; Here is text about me adding some more text to test it for now!
-                            here is text about me adding some more text to test it for now!
-                            here is text about me adding some more text to test it for now!
-                            here is text about me adding some more text to test it for now!
-                            here is text about me adding some more text to test it for now!</p>
+                            <p id="about-me-text">&nbsp;&nbsp;&nbsp;  I am trained as a full stack developer, 
+                            and provide great value with my interpersonal skills, big-picture thinking, 
+                            efficient solutions and positive attitude. I work well under pressure and love to think 
+                            outside of the box to solve challenging problems while collaborating with my team. </p>
                         </div>
                     </div>
                 </div>
