@@ -8,17 +8,17 @@ import emailjs from '@emailjs/browser';
 
 
 const Home = () => {
-    const form = useRef();
 
+    const form = useRef();
     const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_9vv00dm', 'template_xh8bbrf', form.current, 'PMOhg-FNFQLZkVJC4')
       .then((result) => {
-          console.log(result.text);
+          console.log(result.text)
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
     };
 
     const [showProject1, setShowProject1] = useState(false)
@@ -59,11 +59,14 @@ const Home = () => {
                     </div>
                     <div id="header-right-div">
                         <div id="border-right-div">
-                            <h1 id="about-me">About Me</h1>
-                            <p id="about-me-text">&nbsp;&nbsp;&nbsp;  I am trained as a full stack developer, 
+                            <h1 id="about-me">About Me <a id="resume-link" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/18J387r9X9s5Wh9QXe5aYxk6RaRDARTvFGfqLFC_E0jk/edit?usp=sharing"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-text" viewBox="0 0 16 16">
+      <path d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"/>
+      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+    </svg></a></h1>
+                            <p id="about-me-text">&nbsp;&nbsp; I am trained as a full stack developer, 
                             and provide great value with my interpersonal skills, big-picture thinking, 
                             efficient solutions and positive attitude. I work well under pressure and love to think 
-                            outside of the box to solve challenging problems while collaborating with my team. </p>
+                            outside of the box to solve challenging problems while collaborating with my team.</p>
                         </div>
                     </div>
                 </div>
