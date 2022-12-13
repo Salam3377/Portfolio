@@ -80,7 +80,7 @@ html,body
 }
 #about-me {
     font-size: 40px;
-    min-width: 150px;
+    min-width: 170px;
     width: fit-content;
     margin: 10px auto;
     text-align: center;
@@ -93,6 +93,9 @@ html,body
     padding-left: 100px;
 }
 #resume-link {
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 1.3vw;
     color: blueviolet;
 }
 #center-links-div {
@@ -259,6 +262,10 @@ i {
         padding-bottom: 10px !important;
         margin-bottom: 20px !important;
     }
+    #resume-link {
+        font-size: 2vw !important;
+        padding-top: 3px !important;
+    }
     #about-me-text {
         font-size: 1.7vw !important;
         width: 50vw !important;
@@ -361,6 +368,10 @@ i {
     }
     #about-me {
         font-size: 20px !important;
+    }
+    #resume-link {
+        font-size: 17px !important;
+        padding-left: 7px !important;
     }
     #about-me-text {
         margin: 0 !important;
