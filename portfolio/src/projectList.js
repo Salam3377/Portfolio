@@ -12,8 +12,8 @@ export const projectList = [
         'name': 'E-Commerce-Shop (ALMOST DONE)',
         'stack': 'Python, Django, PSQL, Javasript, React, Redux',
         'description': 'Fully functional e-com fullstack app',
-        'git':  'IN PROGRESS',
-        'live': 'COMING SOON',
+        'git':  'https://github.com/Salam3377/Django-React-eCom',
+        'live': '',
         'image': '/images/e-shop.PNG',
     },
 
@@ -21,8 +21,8 @@ export const projectList = [
         'name': 'Lux-House (IN PROGRESS)',
         'stack': 'Python, Django, PSQL, Javasript, React',
         'description': 'Nicely designed and well organized Coffee-shop fullstack web-app',
-        'git':  'IN PROGRESS',
-        'live': 'COMING SOON',
+        'git':  'https://github.com/Salam3377/Django-lux-house',
+        'live': '',
         'image': '/images/lux-house-pic.PNG',
     },
 
