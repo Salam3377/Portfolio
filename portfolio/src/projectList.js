@@ -36,3 +36,5 @@ export const projectList = [
     },
    
 ]
+
+export const iconImage = '/images/image-icon.png'

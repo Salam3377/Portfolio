@@ -7,10 +7,14 @@
 }
 .section__title {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
+  margin-top: 0px;
   font-size: 30px;
-  background-image: linear-gradient( rgba(255,0,0,0), rgb(157, 0, 255));
+  background-color: rgb(157, 0, 255);
+  color: black;
   padding: 5px;
+  border-top: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 @media(max-width: 915px) {
@@ -19,7 +23,6 @@
   }
 }
 #projects {
-  padding-top: 10px;
   padding-bottom: 20px;
 
   background-image: linear-gradient(rgb(20, 0, 34), rgb(13, 1, 20), rgb(0, 0, 0));

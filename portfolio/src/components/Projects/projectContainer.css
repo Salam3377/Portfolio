@@ -7,11 +7,14 @@
   transition: transform 0.2s linear;
   border-bottom: 1px solid rgb(157, 0, 255);
   border-radius: 3%;
+  box-shadow: 5px 5px 5px 5px black;
   
 }
 .project:hover {
   border-bottom: 1px solid rgb(255, 255, 255);
   transition: 0.2s;
+  box-shadow: 1px 1px 10px 10px rgb(83, 0, 135);
+
 }
 
 .project:hover {
@@ -41,12 +44,12 @@
 }
 
 .project-image {
-  max-width: 450px;
+  max-width: 300px;
 }
 
 @media(max-width: 1250px) {
   .project-image {
-    max-width: 350px !important;
+    max-width: 250px !important;
   }
 }
 
