@@ -1,9 +1,9 @@
 import React, { useState, useRef } from "react";
 import '../components/home.css'
-import pongMain from '../images/pong-main-pic.PNG'
-import coffeeShop from '../images/coffee-shop.PNG'
-import backgroundPic from '../images/backgroundPic.jpg'
-import luxHouse from '../images/lux-house-pic.PNG'
+// import pongMain from '../images/pong-main-pic.PNG'
+// import coffeeShop from '../images/coffee-shop.PNG'
+// import backgroundPic from '../images/backgroundPic.jpg'
+// import luxHouse from '../images/lux-house-pic.PNG'
 import emailjs from '@emailjs/browser';
 
 
@@ -97,10 +97,11 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            {/* style={{backgroundImage: `url(${backgroundPic})`}} */}
+           
             <div id="middle-body-div">
-                <img id="background" src={backgroundPic} alt="" />
-                <div id="project-div">
+                {/* <img id="background" src={backgroundPic} alt="" /> */}
+                
+                {/* <div id="project-div">
                     <div id="left-div-projects">
                         <h1 id="my-projects-h1">My Projects</h1>
                         <div id="project-buttons-list-div">
@@ -109,28 +110,26 @@ const Home = () => {
                             <button style={choiceColor3}  onClick={() => show3()} class="project-buttons">Lux-House</button>
                         </div>
                     </div>
-                    {/* <div style={transition1} id="test">
-                        <img style={transition1} id="project1-description-img" alt="" src={pongMain}/>
-                    </div> */}
+                   
                     <a target="_blank" rel="noopener noreferrer" href="https://salam3377.github.io/project_01-Pong/"><img style={transition1} id="project1-description-img" alt="" src={pongMain}/></a>
 
                     <a target="_blank" rel="noopener noreferrer" href="https://coffeeshop.fly.dev/"><img style={transition2} id="project2-description-img" alt="" src={coffeeShop} /></a>
 
                     <img style={transition3} id="project3-description-img" alt="" src={luxHouse} />
-                </div>
+                </div> */}
                 
-                <div id="contact-me">
+                {/* <div id="contact-me">
                     <form id="contact-form" ref={form} onSubmit={sendEmail}>
                         <h1 id="contact-me-h1">Contact Me</h1>
-                        {/* <label class="label">Name</label> */}
+                       
                         <input required placeholder="Your name" class="input" type="text" name="user_name" />
-                        {/* <label  class="label">Email</label> */}
+                      
                         <input required placeholder="Your email" class="input" type="email" name="user_email" />
-                        {/* <label  class="label">Message</label> */}
+                      
                         <textarea required placeholder="Your Message..." id="text-area" name="message" />
                         <input id="button-send" type="submit" value="Send" />
                     </form>
-                </div>
+                </div> */}
             </div>
             
 
