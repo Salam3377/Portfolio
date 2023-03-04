@@ -9,11 +9,11 @@ export const projectList = [
     },
 
     {
-        'name': 'E-Commerce-Shop (ALMOST DONE)',
+        'name': 'E-Commerce-Shop',
         'stack': 'Python, Django, PSQL, Javasript, React, Redux',
         'description': 'Fully functional e-com fullstack app',
         'git':  'https://github.com/Salam3377/Django-React-eCom',
-        'live': '',
+        'live': 'https://salam-shop.herokuapp.com',
         'image': '/images/e-shop.PNG',
     },
 
