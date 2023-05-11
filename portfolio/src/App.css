@@ -1,38 +1,64 @@
 .App {
   text-align: center;
+  color: var(--clr-fg);
+  background-color: var(--clr-bg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.light {
+  --clr-bg: #ecfbfd;
+  --clr-cntct: #ffffff;
+  --clr-bg-alt: #fff;
+
+  --clr-fg: #12406b;
+
+
+  --clr-border: #000;
+
+
+  --clr-hover:#5cb7d2;
+
+  --clr-bg-title:#5cb7d2;
+  --clr-title:#f9f9fa;
+
+
+  --clr-bg-contact: #12406b;
+
+  --clr-name: #12406b;
+
+  --clr-links: #12406b;
+
+  --clr-nav: #12406b;
+
+  --clr-proj-brdr:#000000;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dark {
+  --clr-bg: #142034;
+  --clr-bg-alt: #000000;
+  --clr-fg: #9da3a6;
+
+  --clr-cntct: #bcd9f6;
+
+  --clr-bg-contact: #142034;
+
+  --clr-border: #fff;
+
+  --clr-hover:#77bce1;
+
+  --clr-bg-title:#2e7bc3;
+
+
+  --clr-title:#84f6fa;
+
+
+  --clr-name: #2e7bc3;
+
+  --clr-links: #bcd9f6;
+
+  --clr-nav: #bcd9f6;
+
+  --clr-proj-brdr:#2e7bc3;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

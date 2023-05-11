@@ -1,5 +1,5 @@
 .projects__grid {
-  max-width: 1100px;
+  max-width: 1500px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
@@ -9,12 +9,12 @@
   text-align: center;
   margin-bottom: 70px;
   margin-top: 0px;
-  font-size: 30px;
-  background-color: rgb(157, 0, 255);
-  color: black;
+  font-size: 33px;
+  background-color: var(--clr-bg-title);
+  color: var(--clr-title);
   padding: 5px;
-  border-top: 1px solid rgb(255, 255, 255);
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-top: 1px solid var(--clr-border);
+  border-bottom: 1px solid var(--clr-border);
 }
 
 @media(max-width: 915px) {
@@ -23,7 +23,5 @@
   }
 }
 #projects {
-  padding-bottom: 20px;
-
-  background-image: linear-gradient(rgb(20, 0, 34), rgb(13, 1, 20), rgb(0, 0, 0));
+  padding-bottom: 50px;
 }

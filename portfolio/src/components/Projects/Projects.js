@@ -1,12 +1,10 @@
-import { Row, Col } from 'react-bootstrap'
 import { projectList } from '../../projectList'
 import ProjectContainer from './ProjectContainer'
 import './projects.css'
-import backgoundImg from '../../cosmic-background.jpg'
+
 
 const Projects = () => {
-  // if (!projectsList.length) return null
-
+ 
   return (
     <section id='projects' className='section projects'>
       <h2 className='section__title'>Projects</h2>

@@ -1,12 +1,13 @@
+import { isDisabled } from '@testing-library/user-event/dist/utils'
 import React from 'react'
 import './projectContainer.css'
 
 
 const ProjectContainer = ({ project }) => (
-  <div class='project'>
+  <div className='project'>
     <h3>{project.name}</h3>
-    <img className='project-image' src={project.image} alt=''></img>
-    <p class='project__description'>{project.description}</p>
+    <a  target="_blank" rel="noopener noreferrer" href={project.live ? project.live : isDisabled}><img className='project-image' src={project.image} alt=''></img></a>
+    <p className='project__description'>{project.description}</p>
     <p className='project__stack'>{project.stack}</p>
     
   
@@ -24,7 +25,7 @@ const ProjectContainer = ({ project }) => (
 
     {project.live ? 
       
-      <a
+      <strong style={{fontSize: '17px'}}><a
         href={project.live}
         aria-label='live preview'
         className='link link--icon'
@@ -32,7 +33,7 @@ const ProjectContainer = ({ project }) => (
         rel="noopener noreferrer"
       >
         Live
-      </a>
+      </a></strong>
       : <p></p>
     }
   </div>
