@@ -9,11 +9,11 @@ export const projectList = [
     },
 
     {
-        'name': 'Lux-House (IN PROGRESS)',
+        'name': 'Lux-House',
         'stack': 'Python, Django, PSQL, Javasript, React',
         'description': 'Nicely designed and well organized Coffee-shop fullstack web-app',
         'git':  'https://github.com/Salam3377/Django-lux-house',
-        'live': '',
+        'live': 'https://lux-house.herokuapp.com/',
         'image': '/images/lux-house-pic.PNG',
     },
 

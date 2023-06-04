@@ -22,7 +22,7 @@ function AboutMe() {
 
         <div id='links-div'>
         <a id='links' target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/salam-abdusalamov05/" className="fa fa-linkedin-square"> </a>
-        <a  id="resume-link" target="_blank" rel="noopener noreferrer"  href="https://docs.google.com/document/d/1tLHOziC0h-sN4io838Wg14ibpZb1YQ3qhgvGgbtAYJ0/edit?usp=sharing" className="fa">&#xf15c;</a>
+        <a  id="resume-link" target="_blank" rel="noopener noreferrer"  href="https://docs.google.com/document/d/18J387r9X9s5Wh9QXe5aYxk6RaRDARTvFGfqLFC_E0jk/edit?usp=sharing" className="fa">&#xf15c;</a>
         <a id='links' target="_blank" rel="noopener noreferrer" href="https://github.com/Salam3377" className="fa fa-github-square"> </a>
       </div>
     </div>
