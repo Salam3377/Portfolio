@@ -1,12 +1,12 @@
 export const projectList = [
-    {
-        'name': 'E-Commerce-Shop',
-        'stack': 'Python, Django, PSQL, Javasript, React, Redux',
-        'description': 'Fully functional e-com fullstack app',
-        'git':  'https://github.com/Salam3377/Django-React-eCom',
-        'live': 'https://salam-shop.herokuapp.com',
-        'image': '/images/e-shop.PNG',
-    },
+    // {
+    //     'name': 'E-Commerce-Shop',
+    //     'stack': 'Python, Django, PSQL, Javasript, React, Redux',
+    //     'description': 'Fully functional e-com fullstack app',
+    //     'git':  'https://github.com/Salam3377/Django-React-eCom',
+    //     'live': 'https://salam-shop.herokuapp.com',
+    //     'image': '/images/e-shop.PNG',
+    // },
 
     {
         'name': 'Lux-House',
@@ -26,14 +26,14 @@ export const projectList = [
         'image': '/images/coming-soon.jpg',
     },
 
-    {
-        'name': 'Pong-Game (temporary unavailable)',
-        'stack': 'Vanilla-JS, HTML, CSS',
-        'description': 'basic pong game available for 2 players',
-        'git':  'https://github.com/Salam3377/project_01-Pong',
-        'live': '',
-        'image': '/images/pong-main-pic.PNG',
-    },
+    // {
+    //     'name': 'Pong-Game (temporary unavailable)',
+    //     'stack': 'Vanilla-JS, HTML, CSS',
+    //     'description': 'basic pong game available for 2 players',
+    //     'git':  'https://github.com/Salam3377/project_01-Pong',
+    //     'live': '',
+    //     'image': '/images/pong-main-pic.PNG',
+    // },
    
 ]
 
