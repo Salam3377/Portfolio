@@ -1,7 +1,8 @@
 import React from 'react'
 import './AboutMe.css'
 
-import { img3 } from '../projectList'
+import { pic } from '../projectList'
+
 
 function AboutMe() {
 
@@ -10,7 +11,7 @@ function AboutMe() {
 
     <div id='main-div'>
         <h1 id="name">Salam Abdusalamov</h1>
-        <img id='iconImage' src={img3} alt=''></img>
+        <img id='iconImage' src={pic} alt=''></img>
         <div id='div-about'>
             <h1 id="about-me">About Me </h1>
             <p id="about-me-text">
