@@ -1,15 +1,26 @@
-export const skills = [
+export const softSkills = [
     'HTML',
     'CSS',
     'JavaScript',
-    'LiquidJS',
+    'Java',
+    'Python',
     'Node',
     'React',
-    'Redux',
-    'Express',
+    'SQL',
     'MongoDB',
-    'Python',
-    'Django',
-    'PSQL',
-    'Git',  
+  ]
+
+
+  export const QASkills = [
+    'JIRA',
+    'Confluence',
+    'Postman',
+    'Selenium WebDriver',
+    'Cucumber',
+    'Jenkins',
+    'AWS',
+    'Android Studio',
+    'SQL',
+    'Git',
+    'GitHub',
   ]

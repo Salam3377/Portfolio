@@ -17,14 +17,14 @@ export const projectList = [
         'image': '/images/lux-house-pic.PNG',
     },
 
-    {
-        'name': 'E-commerce using MERN stack',
-        'stack': 'MongoDB, Express, React, Node',
-        'description': 'For now BackEnd is ready to be viewed, frontend coming soon',
-        'git':  'https://github.com/Salam3377/MERN-ecom',
-        'live': 'https://global-ecom.onrender.com/api/v1/products',
-        'image': '/images/coming-soon.jpg',
-    },
+    // {
+    //     'name': 'E-commerce using MERN stack',
+    //     'stack': 'MongoDB, Express, React, Node',
+    //     'description': 'For now BackEnd is ready to be viewed, frontend coming soon',
+    //     'git':  'https://github.com/Salam3377/MERN-ecom',
+    //     'live': 'https://global-ecom.onrender.com/api/v1/products',
+    //     'image': '/images/coming-soon.jpg',
+    // },
 
     // {
     //     'name': 'Pong-Game (temporary unavailable)',

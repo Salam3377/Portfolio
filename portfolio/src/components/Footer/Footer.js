@@ -6,7 +6,7 @@ const Footer = () => (
       href='/'
       className='link footer__link'
     >
-      &copy; Salam 2023
+      &copy; Salam 2025
     </a>
   </footer>
 )

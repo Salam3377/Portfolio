@@ -19,3 +19,8 @@ font-size: 20px;
     margin-top: 50px;
     margin-bottom: 70px;
 }
+
+.expertise-titles {
+    color: rgba(255, 255, 255, 0.872);
+    font-size: 21px;
+}
